@@ -1,0 +1,202 @@
+/* #ifdef MP */
+Page {
+	--color-primary: #00AEEF;
+	--color-success: #0BBA7A;
+	--color-warning: #F58220;
+	--color-danger: #FF3333;
+	--color-info: #909399;
+}
+/* #endif */
+
+/* #ifndef MP */
+:root {
+	--color-primary: #00AEEF;
+	--color-success: #0BBA7A;
+	--color-warning: #F58220;
+	--color-danger: #FF3333;
+	--color-info: #909399;
+}
+/* #endif */
+
+
+/* 文字颜色 */
+.text-primary {
+	color: var(--color-primary);
+}
+
+.text-success {
+	color: var(--color-success);
+}
+
+.text-warning {
+	color: var(--color-warning);
+}
+
+.text-danger {
+	color: var(--color-danger);
+}
+
+.text-info {
+	color: var(--color-info);
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.text-black {
+	color: #000000;
+}
+
+.text-color-333 {
+	color: #333;
+}
+
+.text-color-444 {
+	color: #444;
+}
+
+.text-color-666 {
+	color: #666;
+}
+
+.text-color-999 {
+	color: #999;
+}
+
+.text-color-ccc {
+	color: #ccc;
+}
+
+.text-color-868C91 {
+	color: #868C91;
+}
+
+.text-color-C5D0D5 {
+	color: #C5D0D5;
+}
+
+
+
+/* 背景颜色 */
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-success {
+	background-color: var(--color-success);
+}
+
+.bg-warning {
+	background-color: var(--color-warning);
+}
+
+.bg-danger {
+	background-color: var(--color-danger);
+}
+
+.bg-info {
+	background-color: var(--color-info);
+}
+
+.bg-white {
+	background-color: #ffffff !important;
+}
+
+.bg-light {
+	background-color: #F7F8F9;
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.bg-color-F6F8F9 {
+	background-color: #F6F8F9;
+}
+
+.bg-color-F9F9F9 {
+	background-color: #F9F9F9;
+}
+
+.bg-color-F5F5F5 {
+	background-color: #f5f5f5;
+}
+
+.bg-color-EEFBFF {
+	background-color: #EEFBFF;
+}
+
+.bg-color-FFF4F1 {
+	background-color: #FFF4F1;
+}
+
+.bg-color-E0F8FF {
+	background-color: #E0F8FF;
+}
+
+.bg-color-DFEEF8 {
+	background-color: #DFEEF8;
+}
+
+.bg-color-F5F7FB {
+	background-color: #F5F7FB;
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bg-opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-opacity-white {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 边框颜色 */
+.border-primary {
+	border-color: var(--color-primary);
+}
+
+.border-success {
+	border-color: var(--color-success);
+}
+
+.border-warning {
+	border-color:var(--color-warning);
+}
+
+.border-danger {
+	border-color: var(--color-danger);
+}
+
+.border-info {
+	border-color: var(--color-info);
+}
+
+.border-white {
+	border-color: #ffffff;
+}
+
+.border-black {
+	border-color: #000000;
+}
+
+.border-darker {
+	border-color: #CDD0D6;
+}
+
+.border-F6F8F9 {
+	border-color: #F6F8F9;
+}
+
+.border-opacity-white  {
+	border-color:  rgba(255, 255, 255, 0.5);
+}
+
+
+.linear-gradient {
+	background-image: linear-gradient(to bottom, #00A9EF, #1BD6F8);
+}

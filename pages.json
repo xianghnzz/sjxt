@@ -1,0 +1,193 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/reset/reset",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/common-problem/common-problem",
+			"style": {
+				"navigationBarTitleText": "常见问题"
+			}
+		},
+		{
+			"path": "pages/problem-info/problem-info",
+			"style": {
+				"navigationBarTitleText": "问题详情"
+			}
+		},
+		{
+			"path": "pages/paper-introduction/paper-introduction",
+			"style": {
+				"navigationBarTitleText": "纸张介绍"
+			}
+		},
+		{
+			"path": "pages/paper-info/paper-info",
+			"style": {
+				"navigationBarTitleText": "纸张详情"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "需求留言"
+			}
+		},
+		{
+			"path": "pages/complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "投诉建议"
+			}
+		},
+		{
+			"path": "pages/enterprise-customization/enterprise-customization",
+			"style": {
+				"navigationBarTitleText": "企业定制"
+			}
+		},
+		{
+			"path": "pages/product-selection/product-selection",
+			"style": {
+				"navigationBarTitleText": "产品选择"
+			}
+		},
+		{
+			"path": "pages/template-selection/template-selection",
+			"style": {
+				"navigationBarTitleText": "模版选择"
+			}
+		},
+		{
+			"path": "pages/product-preview/product-preview",
+			"style": {
+				"navigationBarTitleText": "模版预览"
+			}
+		},
+		{
+			"path": "pages/product-edit/product-edit",
+			"style": {
+				"navigationBarTitleText": "模版编辑"
+			}
+		},
+		{
+			"path": "pages/product-free-edit/product-free-edit",
+			"style": {
+				"navigationBarTitleText": "无限模式商品模版编辑"
+			}
+		},
+		{
+			"path": "pages/product-book-edit/product-book-edit",
+			"style": {
+				"navigationBarTitleText": "书籍模版编辑"
+			}
+		},
+		{
+			"path": "pages/product-book-free-edit/product-book-free-edit",
+			"style": {
+				"navigationBarTitleText": "无限模式商品书籍模版编辑"
+			}
+		},
+		{
+			"path": "pages/custom-size/custom-size",
+			"style": {
+				"navigationBarTitleText": "自定义尺寸"
+			}
+		},
+		{
+			"path": "pages/custom-template-selection/custom-template-selection",
+			"style": {
+				"navigationBarTitleText": "自定义模版选择"
+			}
+		},
+		{
+			"path": "pages/easy-edit/easy-edit",
+			"style": {
+				"navigationBarTitleText": "简易编辑",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/professional-edit/professional-edit",
+			"style": {
+				"navigationBarTitleText": "专业编辑",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+		},
+		// 网页浏览
+		{
+			"path": "pages/web-view/web-view",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+
+		, {
+			"path": "pages/compile/compile",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OrderAmount/OrderAmount",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "上传编辑",
+		"app-plus": {
+			"softinputMode": "adjustResize"
+		}
+	},
+	"uniIdRouter": {}
+}

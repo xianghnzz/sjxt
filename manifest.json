@@ -1,0 +1,137 @@
+{
+    "name" : "上传编辑",
+    "appid" : "__UNI__EBFC4AC",
+    "description" : "上传编辑",
+    "versionName" : "1.0.0",
+    "versionCode" : 100,
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        /* 模块配置 */
+        "modules" : {
+            "VideoPlayer" : {},
+            "Webview-x5" : {},
+            "UIWebview" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "minSdkVersion" : 21
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "dSYMs" : false,
+                "idfa" : false
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "payment" : {
+                    "alipay" : {
+                        "__platform__" : [ "ios", "android" ]
+                    }
+                }
+            },
+            "splashscreen" : {
+                "useOriginalMsgbox" : false,
+                "alwaysShowBeforeRender" : true,
+                "waiting" : true,
+                "autoclose" : true,
+                "delay" : 10
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "",
+                    "xhdpi" : "",
+                    "xxhdpi" : "",
+                    "xxxhdpi" : ""
+                },
+                "ios" : {
+                    "appstore" : "",
+                    "ipad" : {
+                        "app" : "",
+                        "app@2x" : "",
+                        "notification" : "",
+                        "notification@2x" : "",
+                        "proapp@2x" : "",
+                        "settings" : "",
+                        "settings@2x" : "",
+                        "spotlight" : "",
+                        "spotlight@2x" : ""
+                    },
+                    "iphone" : {
+                        "app@2x" : "",
+                        "app@3x" : "",
+                        "notification@2x" : "",
+                        "notification@3x" : "",
+                        "settings@2x" : "",
+                        "settings@3x" : "",
+                        "spotlight@2x" : "",
+                        "spotlight@3x" : ""
+                    }
+                }
+            }
+        },
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3",
+    "locale" : "auto",
+    "fallbackLocale" : "zh-Hans",
+    "h5" : {
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        },
+        "title" : "上传编辑",
+        "router" : {
+            "mode" : "hash",
+            "base" : "./"
+        },
+        "template" : "index.html"
+    }
+}
