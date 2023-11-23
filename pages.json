@@ -158,21 +158,22 @@
 			}
 		}
 
-		, {
-			"path": "pages/compile/compile",
-			"style": {
-				"navigationBarTitleText": "编辑",
-				"enablePullDownRefresh": false
-			}
+		//  {
+		// 	"path": "pages/compile/compile",
+		// 	"style": {
+		// 		"navigationBarTitleText": "编辑",
+		// 		"enablePullDownRefresh": false
+		// 	}
 
-		}, {
-			"path": "pages/OrderAmount/OrderAmount",
-			"style": {
-				"navigationBarTitleText": "订单详情",
-				"enablePullDownRefresh": false
-			}
+		// },
+		// {
+		// 	"path": "pages/OrderAmount/OrderAmount",
+		// 	"style": {
+		// 		"navigationBarTitleText": "订单详情",
+		// 		"enablePullDownRefresh": false
+		// 	}
 
-		}
+		// }
 	],
 	"easycom": {
 		"autoscan": true,
